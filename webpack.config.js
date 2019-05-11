@@ -4,7 +4,7 @@ module.exports = {
   entry: './main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'main.js'
+    filename: 'main.js',
   },
   module: {
     rules: [
@@ -12,7 +12,7 @@ module.exports = {
         enforce: 'pre',
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'eslint-loader'
+        loader: 'eslint-loader',
       },
       {
         test: /\.m?js$/,
@@ -21,10 +21,10 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['@babel/preset-env'],
-            sourceMap: true
-          }
-        }
-      }
-    ]
-  }
+            sourceMap: true,
+          },
+        },
+      },
+    ],
+  },
 };
