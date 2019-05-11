@@ -1,8 +1,15 @@
 {
     "name": "新建项目",
-    "main": "main.js",
+    "main": "dist/main.js",
     "ignore": [
-        "build"
+        "build",
+        "node_modules",
+        ".eslintrc.js",
+        ".gitignore",
+        "package-lock.json",
+        "package.json",
+        "README.md",
+        "webpack.config.js"
     ],
     "packageName": "com.example",
     "versionName": "1.0.0",
