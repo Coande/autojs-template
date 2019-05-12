@@ -7,9 +7,11 @@
   },
   "encryptLevel": 0,
   "useFeatures": [],
+  "icon": "res/icon.png",
   "launchConfig": {
     "displaySplash": true,
     "hideLogs": false,
+    "splashIcon": "res/splashIcon.png",
     "splashText": "Powered by Auto.js Pro",
     "stableMode": false
   },
