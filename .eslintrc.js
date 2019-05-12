@@ -5,11 +5,14 @@ module.exports = {
   extends: 'airbnb-base',
   globals: {
     Atomics: 'readonly',
-    SharedArrayBuffer: 'readonly',
-    toast: 'readonly',
+    SharedArrayBuffer: 'readonly'
   },
   parserOptions: {
     ecmaVersion: 2018,
   },
-  rules: {},
+  rules: {
+    'no-console': 'off',
+    'no-undef': 'off',
+    'prefer-destructuring': 'off'
+  },
 };
