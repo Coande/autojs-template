@@ -2,9 +2,6 @@ const path = require('path');
 
 module.exports = {
   entry: './src/main.js',
-  // 各种 sourcemap 类型试了一遍，发现只支持 eval 类型的。
-  // 详细可参考：https://segmentfault.com/a/1190000008315937
-  devtool: 'eval-source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
