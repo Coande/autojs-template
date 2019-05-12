@@ -1,17 +1,38 @@
 {
-    "name": "新建项目",
-    "main": "dist/main.js",
-    "ignore": [
-        "build",
-        "node_modules",
-        ".eslintrc.js",
-        ".gitignore",
-        "package-lock.json",
-        "package.json",
-        "README.md",
-        "webpack.config.js"
-    ],
-    "packageName": "com.example",
-    "versionName": "1.0.0",
-    "versionCode": 1
+  "assets": [],
+  "build": {
+    "build_number": 0,
+    "build_time": 0,
+    "release": false
+  },
+  "encryptLevel": 0,
+  "useFeatures": [],
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "splashText": "Powered by Auto.js Pro",
+    "stableMode": false
+  },
+  "name": "新建项目",
+  "mainScriptFile": "dist/main.js",
+  "ignore": [
+    "build",
+    "node_modules",
+    "src",
+    ".editorconfig",
+    ".eslintrc.js",
+    ".gitignore",
+    "package-lock.json",
+    "package.json",
+    "README.md",
+    "webpack.config.js"
+  ],
+  "optimization": {
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "com.example",
+  "scripts": {},
+  "versionName": "1.0.0",
+  "versionCode": 1
 }
