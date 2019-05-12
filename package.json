@@ -1,7 +1,7 @@
 {
   "name": "autojs-template",
   "version": "1.0.0",
-  "description": "A Auto.js Project template using webpack",
+  "description": "An Auto.js Project template using webpack",
   "main": "main.js",
   "scripts": {
     "dev": "webpack --watch --config webpack.config.js --mode=development",

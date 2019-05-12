@@ -1,6 +1,6 @@
 # autojs-template
 
-这是一个 [Auto.js](https://github.com/hyb1996/Auto.js) 项目模板
+这是一个 [Auto.js Pro](https://pro.autojs.org) 项目模板。
 
 
 ## Features
